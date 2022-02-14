@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Search box is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[Individual Application button is displayed in the header Navigation ]]>
+    </line>
+    <line>
+      <![CDATA[Company Request button is displayed in the header Navigation ]]>
+    </line>
+    <line>
+      <![CDATA[Search Box  is displayed in the header Navigation]]>
+    </line>
+    <line>
+      <![CDATA[Search button is displayed in the header Navigation]]>
+    </line>
+    <line>
+      <![CDATA[User setting button is displayed in the header Navigation]]>
+    </line>
+    <line>
+      <![CDATA[Help button is displayed in the header Navigation]]>
+    </line>
+    <line>
+      <![CDATA[Logout button is displayed in the header Navigation]]>
+    </line>
+    <line>
+      <![CDATA[Ideal Logo image in Dashboard is displayed in the header Navigation]]>
+    </line>
+    <line>
+      <![CDATA[companyRequest Button is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[individual Request Button is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[Search Field is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[Name is not matching with search keyword ad displayed as : ABC CONTAINER CORPORATION]]>
+    </line>
+    <line>
+      <![CDATA[HeaderRequest is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[HeaderApplicant is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[HeaderDateHou is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[HeaderEmail is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[HeaderPhone is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[HeaderReason is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[HeaderExp is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[HeaderStatus is displayed ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-13T23:39:04 IST" name="Suite" finished-at="2022-02-13T23:49:23 IST" duration-ms="618825">
+    <groups>
+    </groups>
+    <test started-at="2022-02-13T23:39:04 IST" name="Test" finished-at="2022-02-13T23:49:23 IST" duration-ms="618825">
+      <class name="com.ideal.testcases.IdealCompanyRequest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ideal.testcases.IdealCompanyRequest@78123e82]" started-at="2022-02-13T23:46:04 IST" name="setUp" finished-at="2022-02-13T23:48:00 IST" duration-ms="115122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="companyRequest()[pri:0, instance:com.ideal.testcases.IdealCompanyRequest@78123e82]" started-at="2022-02-13T23:48:00 IST" name="companyRequest" finished-at="2022-02-13T23:49:22 IST" duration-ms="82152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- companyRequest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ideal.testcases.IdealCompanyRequest@78123e82]" started-at="2022-02-13T23:49:22 IST" name="tearDown" finished-at="2022-02-13T23:49:23 IST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ideal.testcases.IdealCompanyRequest -->
+      <class name="com.ideal.testcases.IdealDashBoard">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ideal.testcases.IdealDashBoard@7e5afaa6]" started-at="2022-02-13T23:39:04 IST" name="setUp" finished-at="2022-02-13T23:41:10 IST" duration-ms="126265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyIdealDashBoadHeaderNav()[pri:0, instance:com.ideal.testcases.IdealDashBoard@7e5afaa6]" started-at="2022-02-13T23:41:10 IST" name="VerifyIdealDashBoadHeaderNav" finished-at="2022-02-13T23:41:36 IST" duration-ms="26187" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Search box is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[Individual Application button is displayed in the header Navigation ]]>
+            </line>
+            <line>
+              <![CDATA[Company Request button is displayed in the header Navigation ]]>
+            </line>
+            <line>
+              <![CDATA[Search Box  is displayed in the header Navigation]]>
+            </line>
+            <line>
+              <![CDATA[Search button is displayed in the header Navigation]]>
+            </line>
+            <line>
+              <![CDATA[User setting button is displayed in the header Navigation]]>
+            </line>
+            <line>
+              <![CDATA[Help button is displayed in the header Navigation]]>
+            </line>
+            <line>
+              <![CDATA[Logout button is displayed in the header Navigation]]>
+            </line>
+            <line>
+              <![CDATA[Ideal Logo image in Dashboard is displayed in the header Navigation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyIdealDashBoadHeaderNav -->
+        <test-method signature="verifyIdealDashboardButtons()[pri:0, instance:com.ideal.testcases.IdealDashBoard@7e5afaa6]" started-at="2022-02-13T23:41:36 IST" name="verifyIdealDashboardButtons" finished-at="2022-02-13T23:41:47 IST" duration-ms="10078" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[companyRequest Button is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[individual Request Button is displayed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyIdealDashboardButtons -->
+        <test-method signature="verifyIdealDashboardSearch()[pri:0, instance:com.ideal.testcases.IdealDashBoard@7e5afaa6]" started-at="2022-02-13T23:41:47 IST" name="verifyIdealDashboardSearch" finished-at="2022-02-13T23:41:52 IST" duration-ms="5593" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Search Field is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[Name is not matching with search keyword ad displayed as : ABC CONTAINER CORPORATION]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyIdealDashboardSearch -->
+        <test-method signature="verifyIdealgridHeaderTitle()[pri:0, instance:com.ideal.testcases.IdealDashBoard@7e5afaa6]" started-at="2022-02-13T23:41:52 IST" name="verifyIdealgridHeaderTitle" finished-at="2022-02-13T23:42:32 IST" duration-ms="40330" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HeaderRequest is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[HeaderApplicant is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[HeaderDateHou is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[HeaderEmail is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[HeaderPhone is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[HeaderReason is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[HeaderExp is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[HeaderStatus is displayed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyIdealgridHeaderTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ideal.testcases.IdealDashBoard@7e5afaa6]" started-at="2022-02-13T23:42:32 IST" name="tearDown" finished-at="2022-02-13T23:42:33 IST" duration-ms="977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ideal.testcases.IdealDashBoard -->
+      <class name="com.ideal.testcases.IdealIndividualRequest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ideal.testcases.IdealIndividualRequest@76c3e77a]" started-at="2022-02-13T23:42:33 IST" name="setUp" finished-at="2022-02-13T23:44:46 IST" duration-ms="132738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="individualRequest()[pri:0, instance:com.ideal.testcases.IdealIndividualRequest@76c3e77a]" started-at="2022-02-13T23:44:46 IST" name="individualRequest" finished-at="2022-02-13T23:46:03 IST" duration-ms="77269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- individualRequest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ideal.testcases.IdealIndividualRequest@76c3e77a]" started-at="2022-02-13T23:46:03 IST" name="tearDown" finished-at="2022-02-13T23:46:04 IST" duration-ms="924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ideal.testcases.IdealIndividualRequest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
